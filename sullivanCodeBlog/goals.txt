@@ -1,0 +1,21 @@
+
+
+
+I want the website to be a place where I can write simple blog posts as well as projects and tutorials
+that I can make public for fun and as a means of use as a resume and helping others.
+
+The first thing that I want to implament is creating a simple site map where I can go through
+and organize my material so that way things are easy to find. 
+
+I want there to be tabs for blog posts and projects and tutorials as well as an about me section where
+I can list a bit of informaiton about myself as well as some of my credentials as a programmer.
+
+For the blog post section I want to make it to where my posts are organized by year month and day in 
+a heirearchy of that order that way it is easy to get around and look at things that are on specific
+days in time.
+
+For the tutorial section I want it to be organized by subject and then difficulty and then by tutorial number
+and each tutorial in the same category will build on one another.
+
+For the project section I want it to be arranged by name of the project and then by the order of which I post
+about the project.

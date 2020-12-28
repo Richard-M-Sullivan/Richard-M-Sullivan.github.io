@@ -1,0 +1,110 @@
+
+
+
+#blog posts
+
+
+#tutorials
+
+	#basic computer skils
+		#how to solve your problems
+			#understand what you want to accomplish
+				#break down the problem
+				#browse what others have done
+			#find relative terms and jargon
+			#google is your friend
+				#identify how to ask for what you want to know how to do
+				#find answers formmany sources and take notes
+				#be original, others for inspiration and help not to do the work for you
+
+		how to use the terminal
+			what is the terminal?
+			how are commands formatted?
+			list of the most basic and essential commands
+
+		vim
+			what is vim?
+			how to use vim
+			how to make vim fit your needs (rc files)
+			example of a simple vimrc file
+
+	#beginner python
+		setup
+			what is python
+			how to setup python
+			how to use python
+			options for writing python files
+				idle
+				vim
+				text editor or ide
+
+			how to run a pyhton project
+
+		input and output
+			print
+			input
+
+		simple data in python
+			values
+				int 
+				float
+				string
+
+			operators
+			
+			booleans
+				True/False
+				conditionals
+
+			making decisions
+				if statement
+				else statment
+				if else chain
+
+			repetition
+				for loop
+					range
+				while loop
+				do while
+
+			combining loops and conditionas with loops and conditionals
+				nesting if statements
+				nesting loops
+				scope
+					local global
+
+			functions
+				what are funstions for?
+				how to format a function
+					def
+					parameters
+				how to use the perameters
+				scope again...
+				return
+
+			type casting
+				take one type of data and change it into another
+
+			complex data
+				lists
+				tuples
+				dictionaries
+			
+			more on strings
+			
+			for loops
+				blank in blank
+			
+			even more complicated data
+				what are classes?
+				why use classes?
+				bundling data with functions
+				member vriables
+				methods
+				how to make a class
+				how to call a method of a class
+				using classes as a means of representing objects
+				object oriented programming
+
+
+projects
