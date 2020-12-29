@@ -17,7 +17,7 @@
 				#find answers formmany sources and take notes
 				#be original, others for inspiration and help not to do the work for you
 
-		how to use the terminal
+		#how to use the terminal
 			what is the terminal?
 			how are commands formatted?
 			list of the most basic and essential commands
