@@ -51,6 +51,7 @@ nav{
 
 nav ul{
 	white-space: nowrap;
+    text-align:left;
 }
 
 nav li{
@@ -78,93 +79,11 @@ nav a:hover{
 }
 
 main{
+    position: absolute;
 	background-color: white;
-}
-
-main img{
-	width: 100%;
-}
-body {
-	margin: 0px;
-	padding: 0px;
-	background-color: black;
-}
-
-header {
-	background-color: #10101F;
-	color: white;
-	font-family: arial;
-	position: fixed;
-	width: 100%;
-	z-index: 1;
-	text-align: left;
-}
-
-.banner {
-	position: relative;
-}
-
-.banner img{
-	width: 100%;
-	height: 600px;
-	object-fit: cover;
-}
-
-.banner p{
-	position: absolute;
-	top:20%;
-	left:60%;
-	color:white;
-	font-family: arial;
-	font-size: 2em;
-}
-
-.banner span{
-	font-size: 2.5em;
-}
-
-nav{
-	display: inline-block;
-	position: sticky;
-	z-index: 2;
-	top:80;
-	background-color: orange;
-	color: black;
-	text-align: center;
-	width: 100%;
-	line-height: .3em;
-}
-
-nav ul{
-	white-space: nowrap;
-}
-
-nav li{
-	display: inline-block;
-	width:25%;
-	overflow: 
-}
-
-nav a{
-	display: inline;
-	font-size: 1.2em;
-	font-color: black;
-	text-decoration: none;
-	width:100%;
-}
-
-nav a:visited{
-	text-decoration: none;
-	color: black;
-}
-
-nav a:hover{
-	color: #606060;
-	transition:0.25s;
-}
-
-main{
-	background-color: white;
+    width: 100%;
+    height: 100%;
+    top: 115px;
 }
 
 main img{
