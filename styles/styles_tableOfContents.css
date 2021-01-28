@@ -58,6 +58,7 @@ nav a:hover{
 	transition:0.25s;
 }
 
+/* the main content of the window */
 main{
     position: absolute;
 	background-color: white;
@@ -66,6 +67,13 @@ main{
     top: 115px;
 }
 
+main ul{
+    display: inline;
+}
+
+main ul li{
+    display: inline;
+}
 main img{
 	width: 100%;
 }
