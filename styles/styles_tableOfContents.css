@@ -26,3 +26,32 @@ nav ul li a{
 	color:white;
 	padding:10px;
 }
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.inline-block{
+	display:inline-block;
+}
+
+.blue{
+	background-color: dodgerblue;
+	width:20%;
+	height:100%;
+}
+
+.gray{
+	background-color: lightgray;
+	text-align:top;
+}
+
+.level{
+	display:block;
+	text-align: center;
+	border-radius: 50%;
+	width:100px;
+	height:100px;
+	background-color:white;
+}
