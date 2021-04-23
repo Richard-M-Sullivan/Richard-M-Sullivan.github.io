@@ -1,38 +1,61 @@
 <!DOCTYPE=html>
+
 <html>
 
 <head>
     <title>Projects Index</title>
+    <link rel="stylesheet" type="text/css" href="/styles/styles_tableOfContents.css">
 </head>
 
 <body>
-    <h1> Projects </h1>
-    <a href="../index.html">home</a>
+<!-- this is the title at the top of the page -->
+    <header> 
+        <h1> Projects </h1>
+    </header>
 
-    <ul>
-    	<li>
-    		<p>Beginner</p>
-    		<ul>
-    			<!--list of beginner tutorials here	-->
-    		</ul>
-    	</li>
+<!-- this is the navigation to move back to home -->
+    <nav>
+        <a href="../index.html">home</a>
+    </nav>
 
-    	<li>
-    		<p>Intermediate</p>
-    		<ul>
-				<!--list of intermediate tutorials here-->
-    			<li><a href="intermediate/sudoku/tableOfContents.html">python sudoku solver</a></li>
-    		</ul>
-    	</li>
-    	
-    	<li>
-    		<p>Advanced</p>
-    		<ul>
-    			<!--list of advanced projects here	-->
-    		</ul>
-    	</li>
-    </ul>
+<!-- this is the main container for the remaining content of the page -->
+    <main>
 
+    <!-- this is a list of tutorial categories with a sublist of 
+        tutorials in that category -->
+		<div class="classification">
+			<div class="level">
+				<p class="level-label">Beginner</p>
+			</div>
+
+			<div class="tutorials">
+			</div>
+		</div>
+
+		<div class="classification">
+			<div class="level">
+				<p class="level-label">Intermediate</p>
+			</div>
+			
+			<div class="tutorials">
+				<a class="black-text" href="intermediate/sudoku/tableOfContents.html">sudoku solver (python)</a>
+			</div>
+		</div>
+
+		<div class="classification">
+			<div class="level">
+				<p class="level-label">Advanced</p>
+			</div>
+
+			<div class="tutorials">
+			</div>
+		</div>
+
+    </main>
+
+	<footer>
+
+	</footer>
 
 </body>
 
