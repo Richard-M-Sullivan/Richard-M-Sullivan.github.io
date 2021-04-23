@@ -4,7 +4,7 @@ body{
 }
 
 header{
-	background-color: darkorange;
+	background-color:linear-gradient(90deg,#ff8c00,#ffc011);
 	padding:10px;
 	margin:0px;
 }
