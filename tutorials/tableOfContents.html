@@ -6,6 +6,7 @@
     <title>Tutorials Index</title>
     <link rel="stylesheet" type="text/css" href="/styles/styles_tableOfContents.css">
 </head>
+
 <body>
 <!-- this is the title at the top of the page -->
     <header> 
@@ -14,9 +15,7 @@
 
 <!-- this is the navigation to move back to home -->
     <nav>
-    <ul>
-        <li><a href="../index.html">home</a></li>
-    </ul>
+        <a href="../index.html">home</a>
     </nav>
 
 <!-- this is the main container for the remaining content of the page -->
@@ -24,26 +23,40 @@
 
     <!-- this is a list of tutorial categories with a sublist of 
         tutorials in that category -->
-		<div class="inline-block blue">
+		<div class="classification">
 			<div class="level">
-				<p>Beginner</p>
+				<p class="level-label">Beginner</p>
 			</div>
 
-			<div class="level">
-				<p>Intermediate</p>
-			</div>
-		
-			<div class="level">
-				<p>Advanced</p>
+			<div class="tutorials">
+				<a href="beginner/computerSkills/tableOfContents.html">basic computer skills</a>
+				<a href="beginner/python/tableOfContents.html">beginner python</a>
 			</div>
 		</div>
-		<div class="inline-block gray">
-			<ul>
-				<li><a href="beginner/computerSkills/tableOfContents.html">basic computer skills</a></li>
-				<li><a href="beginner/python/tableOfContents.html">beginner python</a></li>
-			</ul>
+
+		<div class="classification">
+			<div class="level">
+				<p class="level-label">Intermediate</p>
+			</div>
+			
+			<div class="tutorials">
+			</div>
 		</div>
+
+		<div class="classification">
+			<div class="level">
+				<p class="level-label">Advanced</p>
+			</div>
+
+			<div class="tutorials">
+			</div>
+		</div>
+
     </main>
+
+	<footer>
+
+	</footer>
 
 </body>
 

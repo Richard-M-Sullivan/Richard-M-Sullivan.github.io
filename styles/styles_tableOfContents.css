@@ -1,4 +1,6 @@
 body{
+	display:flex;
+	flex-direction: column;
 	margin:0px;
 	padding:0px;
 }
@@ -9,49 +11,59 @@ header{
 	margin:0px;
 }
 
-nav ul{
-	background-color: #111111;
-	margin:0px;
-}
-
-nav ul li{
-	display: inline-block;
-	margin:10px;
-	color: white;
-	background-color: #111111;
-}
-
-nav ul li a{
-	text-decoration:none;
-	color:white;
-	padding:10px;
+nav{
+	display: flex;
+	justify-content:start;
+	background-color: #1A1A1A;
+	height:auto;
 }
 
 a{
-	text-decoration: none;
-	color: black;
+	text-align: center;
+	text-decoration:none;
+	color:white;
+	padding:10px;
+	width:25%;
 }
 
-.inline-block{
-	display:inline-block;
+main{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height:80%
 }
 
-.blue{
+.classification{
+	display:flex;
+	flex-direction: row;
+	justify-content:space-around ;
+	align-items:center;
 	background-color: dodgerblue;
-	width:20%;
 	height:100%;
-}
-
-.gray{
-	background-color: lightgray;
-	text-align:top;
+	width:100%;
+	border:2px solid dodgerblue;
+	border-top:0px;
 }
 
 .level{
-	display:block;
+	display:flex;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
 	border-radius: 50%;
-	width:100px;
+	margin:0px 50px 0px 50px;
+	width:125px;
 	height:100px;
-	background-color:white;
+	background-color:lightgray;
+}
+
+.level-label{
+	width:100%
+}
+
+.tutorials{
+	background-color: gray;
+	height:100%;
+	width:100%;
+	border:2px solid #1A1A1A;
 }
