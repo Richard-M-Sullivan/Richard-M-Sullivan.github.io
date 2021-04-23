@@ -4,7 +4,7 @@ body{
 }
 
 header{
-	background-color:linear-gradient(90deg,#ff8c00,#ffc011);
+	background-color:#6cb6e0;
 	padding:10px;
 	margin:0px;
 }
@@ -34,15 +34,16 @@ main{
 	height:100%;
 	flex-shrink: 0;
 	flex-grow: 0;
-	background-color:dodgerblue;
+	background-color:gray;
 }
 
 .link-descriptions{
 	width: 100%;
 	height:100%;
-	background-color: grey;
+	background-color: lightgray;
 }
 
 footer{
 	background-color: black;
 }
+
