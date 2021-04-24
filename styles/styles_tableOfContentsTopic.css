@@ -18,6 +18,15 @@ nav{
 	height:auto;
 }
 
+article{
+    background-color: lightgray;
+    border-bottom: 2px solid black;
+}
+
+article p{
+    padding: 0px 10px 0px 10px;
+}
+
 a{
 	text-align: center;
 	text-decoration:none;
@@ -28,11 +37,36 @@ a{
 
 main{
 	display:flex;
-	flex-direction: column;
-	justify-content: space-evenly;
-	height:80%
+	flex-direction: row;
+	justify-content: top;
+	height:80%;
 }
 
+section{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 5%;
+    margin:10px;
+}
+
+section h2{
+    z-index: -1;
+    position: relative;
+    background-color:#6cb6e0;
+    top:-20px;
+    border-radius: 5%;
+    padding:20px 10px 10px 10px;
+    border-bottom: 5px solid black;
+}
+
+section a{
+    color: black;
+    width:100%;
+    padding:0px 5px 5px 5px;
+}
 .classification{
 	display:flex;
 	flex-direction: row;
