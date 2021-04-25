@@ -3,6 +3,8 @@ body{
 	flex-direction: column;
 	margin:0px;
 	padding:0px;
+	background-color: #959595;
+	background: linear-gradient(0deg,#505050 0%,#f0f0f0 100%);
 }
 
 header{
@@ -20,7 +22,7 @@ nav{
 }
 
 article{
-    background-color: lightgray;
+    background-color: white;
     border-bottom: 2px solid black;
 }
 
@@ -48,19 +50,21 @@ section{
     flex-direction:column;
     justify-content:flex-start;
     align-items: center;
-    border: 5px solid black;
-    border-radius: 5%;
+    border: 6px solid black;
+    border-radius: 30px;
     margin:10px;
+	padding-bottom:20px;
+	height:fit-content;
+	overflow: hidden;
+	background-color: white;
 }
 
 section h2{
 	width:100%;
-    z-index: -1;
     position: relative;
     background-color:#6cb6e0;
 	background: linear-gradient(40deg,#6cb6e0 60%,white 150%);
     top:-20px;
-    border-radius: 5%;
     padding:20px 0px 10px 0px;
 	margin:20px 10px 0px 10px;
     border-bottom: 5px solid black;
@@ -69,6 +73,7 @@ section h2{
 
 section a{
     color: black;
+	overflow: hidden;
     width:100%;
     padding:0px 5px 5px 5px;
 	text-decoration: underline;
