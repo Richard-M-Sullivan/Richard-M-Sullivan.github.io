@@ -23,6 +23,10 @@ a{
 	padding:10px;
 }
 
+p{
+	padding:10px;
+}
+
 main{
 	display:flex;
 	flex-direction: row;
@@ -31,7 +35,7 @@ main{
 }
 
 .personal-info{
-	flex-basis:200px;
+	flex-basis:300px;
 	height:100%;
 	flex-shrink: 0;
 	flex-grow: 0;
