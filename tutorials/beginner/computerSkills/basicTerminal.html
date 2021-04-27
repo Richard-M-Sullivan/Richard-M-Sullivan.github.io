@@ -4,211 +4,230 @@
 
 <head>
 	<title>basic terminal use</title>
+    <link rel="stylesheet" href="/styles/styles_tutorial.css">
 </head>
 
 <body>
-	<h1>quick guide to using the terminal</h1>
+    <header>
+        <h1>quick guide to using the terminal</h1>
+    </header>
 
-    <a href="./tableOfContents.html">back</a>
+    <nav>
+        <a href="./tableOfContents.html">back</a>
+    </nav>
 
-    <p>as a programmer the terminal is just something that you will have to get used to, but
-    	don't worry the terminal is not as bad or scary as it seems. The terminal is also
-    	really useful for certain tasks and will certainly make your life easier. Who knows,
-    	once you get past the hard part of getting the basics down, you might actually have fun
-    	learning and using the terminal in your daily life.
-    </p>
+    <article>
+        <p>as a programmer the terminal is just something that you will have to get used to, but
+            don't worry the terminal is not as bad or scary as it seems. The terminal is also
+            really useful for certain tasks and will certainly make your life easier. Who knows,
+            once you get past the hard part of getting the basics down, you might actually have fun
+            learning and using the terminal in your daily life.
+        </p>
+    </article>
 
-    <h2>What is the Terminal?</h2>
+    <main>
+        <section>
+            <h2>What is the Terminal?</h2>
 
-    <p>Before we can talk about the terminal we have to first discuss a few terms. The first of
-    	which is the operating system, which is a low level program that allows you computer
-    	to run. It basically acts like a resource management system and controls how all the 
-    	programs on your computer run. Having a computer that is able to do work is great, but
-    	we need a way to communicate with the operating system so that it knows what we want to do.
-    	In order to do this a program called the Shell is used. It takes in input and passes it to
-    	the operating system, and it takes the result of what ever happens and gives it back to 
-    	us. Now we can discuss the terminal. The terminal is a window that allows us to give 
-    	commands to our shell program, and it allows us to see and read what the shell program
-    	give back. This all sounds pretty complicated, but if you are confused don't worry. 
-    	To put it simply the terminal is the window that allows you to delegate commands and
-    	read what happened as a result, the shell takes your commands and gives them to the 
-    	operating system, and the operating system executes the commands.</p>
+            <p>Before we can talk about the terminal we have to first discuss a few terms. The first of
+                which is the operating system, which is a low level program that allows you computer
+                to run. It basically acts like a resource management system and controls how all the 
+                programs on your computer run. Having a computer that is able to do work is great, but
+                we need a way to communicate with the operating system so that it knows what we want to do.
+                In order to do this a program called the Shell is used. It takes in input and passes it to
+                the operating system, and it takes the result of what ever happens and gives it back to 
+                us. Now we can discuss the terminal. The terminal is a window that allows us to give 
+                commands to our shell program, and it allows us to see and read what the shell program
+                give back. This all sounds pretty complicated, but if you are confused don't worry. 
+                To put it simply the terminal is the window that allows you to delegate commands and
+                read what happened as a result, the shell takes your commands and gives them to the 
+                operating system, and the operating system executes the commands.</p>
+        </section>
 
-    <h2>How to Use the Terminal</h2>
+        <section>
+            <h2>How to Use the Terminal</h2>
 
-    <p>The first thing to do is to open the terminal. If you are on a mac or linux computer then
-    	this should be a simple process, but if you are on windows then you need to download a
-    	unix style terminal emulator because command prompt on windows is not that great to deal
-    	with and all the tutorials assume you are using a unix style terminal. That being said,
-    	when you open it, it should look like thins:</p>
+            <p>The first thing to do is to open the terminal. If you are on a mac or linux computer then
+                this should be a simple process, but if you are on windows then you need to download a
+                unix style terminal emulator because command prompt on windows is not that great to deal
+                with and all the tutorials assume you are using a unix style terminal. That being said,
+                when you open it, it should look like thins:</p>
 
-    <p>What you see should be a black screen that has a line of text at the top. That line of text
-    	is called the command prompt, which as the name suggests lets you know that the terminal
-    	is ready for you to type in a command.</p>
+            <p>What you see should be a black screen that has a line of text at the top. That line of text
+                is called the command prompt, which as the name suggests lets you know that the terminal
+                is ready for you to type in a command.</p>
+        </section>
 
-    <h2>how do commands work?</h2>
+        <section>
+            <h2>how do commands work?</h2>
 
-    <p>The flow of the terminal is to type a command, let it run, and read the information that
-    	it gives back. For commands there is a specific format that you have to adhere to that 
-    	looks like this: CommandName [options] arguments . Ok, so what does that mean? The 
-    	command name refers to the name of the command, and the arguments are what you want to
-    	run the command on. For example there is a command that is of the name ls. If you type
-    	ls into the command line and hit enter it will list all the files and folders that are
-    	at your current location in the file system. If you type in: ls ~/Desktop  then you will
-    	see all the files and folders that are on the desktop. In this case ~/Desktop is the
-    	argument, which is a fancy way to say the data that you are passing to the program called
-    	ls. In this case ls wants a file location as an argument, and it will give you information
-    	of what is located at the location that you provided. Now that we know about commands and
-    	arguments we can look at options. An option is a form of argument that you pass to the
-    	command that changes the nature of how the command runs. For example the command:
-    	ls ~/Desktop  will give you the files and folders on the desktop, but if you add the
-    	argument: -a then it will show you not only files and folders, but also hidden files and 
-    	folders that you are normally not supposed to see. The way that this is formatted is like
-    	this: ls -a ~Desktop  . Here we see that ls is the name -a is the option and ~/Desktop
-    	is the argument. The way that you specify somthing as an argument is that it has a - in
-    	front of it. you can even have many options that would look like this: ls -l -a ~/Desktop
-    	</p>
+            <p>The flow of the terminal is to type a command, let it run, and read the information that
+                it gives back. For commands there is a specific format that you have to adhere to that 
+                looks like this: CommandName [options] arguments . Ok, so what does that mean? The 
+                command name refers to the name of the command, and the arguments are what you want to
+                run the command on. For example there is a command that is of the name ls. If you type
+                ls into the command line and hit enter it will list all the files and folders that are
+                at your current location in the file system. If you type in: ls ~/Desktop  then you will
+                see all the files and folders that are on the desktop. In this case ~/Desktop is the
+                argument, which is a fancy way to say the data that you are passing to the program called
+                ls. In this case ls wants a file location as an argument, and it will give you information
+                of what is located at the location that you provided. Now that we know about commands and
+                arguments we can look at options. An option is a form of argument that you pass to the
+                command that changes the nature of how the command runs. For example the command:
+                ls ~/Desktop  will give you the files and folders on the desktop, but if you add the
+                argument: -a then it will show you not only files and folders, but also hidden files and 
+                folders that you are normally not supposed to see. The way that this is formatted is like
+                this: ls -a ~Desktop  . Here we see that ls is the name -a is the option and ~/Desktop
+                is the argument. The way that you specify somthing as an argument is that it has a - in
+                front of it. you can even have many options that would look like this: ls -l -a ~/Desktop
+            </p>
+        </section>
 
-    <h2>List of the Most Basic Commands</h2>
+        <section>
+            <h2>List of the Most Basic Commands</h2>
 
-    <h3>ls</h3>
+            <h3>ls</h3>
 
-    <p> the ls command stands for list, and it basically just shows you all of the files and
-    	folders at the location that you specify. If you do not supply any options or arguments
-    	then it shows you the files at your current location. In the case of ls the argument
-    	to be provided is a file location and some helpful options are -a which shows hidden
-    	files and -l which gives you more info about the files than just the names</p>
+            <p> the ls command stands for list, and it basically just shows you all of the files and
+                folders at the location that you specify. If you do not supply any options or arguments
+                then it shows you the files at your current location. In the case of ls the argument
+                to be provided is a file location and some helpful options are -a which shows hidden
+                files and -l which gives you more info about the files than just the names</p>
 
-    <h3>cd</h3>
+            <h3>cd</h3>
 
-    <p> the cd command stands for change directory, and what it does is move your location in the
-    	file system to your specified location. In the case of cd if you run it without any 
-    	arguments then it takes you to your home folder. cd takes only one argument, and that is
-        the location in the file system that you would like to travel to. This can be a relative
-        or an absolute location, and if you don't know what that means then keep reading becasue
-        it will be explained later. The cd command does not take any options. </p>
+            <p> the cd command stands for change directory, and what it does is move your location in the
+                file system to your specified location. In the case of cd if you run it without any 
+                arguments then it takes you to your home folder. cd takes only one argument, and that is
+                the location in the file system that you would like to travel to. This can be a relative
+                or an absolute location, and if you don't know what that means then keep reading becasue
+                it will be explained later. The cd command does not take any options. </p>
 
-    <h3>pwd</h3>
+            <h3>pwd</h3>
 
-    <p>The pwd command is one of the more simple commands in that you just use it without any
-        arguments or options. This command stands for print working directory. What this does
-        is that it shows you your location in the file system. This can be helpful for finding
-        absolute paths for things.</p>
+            <p>The pwd command is one of the more simple commands in that you just use it without any
+                arguments or options. This command stands for print working directory. What this does
+                is that it shows you your location in the file system. This can be helpful for finding
+                absolute paths for things.</p>
 
-    <h3>touch</h3>
+            <h3>touch</h3>
 
-    <p>touch is a command that creates files. the way that it works is that you type in the 
-        command followed by the name of a file in the format: filename.type . with this command
-        you can type in as many file names as you would like and it will make blank files of
-        the name and type that you specified.</p>
+            <p>touch is a command that creates files. the way that it works is that you type in the 
+                command followed by the name of a file in the format: filename.type . with this command
+                you can type in as many file names as you would like and it will make blank files of
+                the name and type that you specified.</p>
 
-    <h3>mkdir</h3>
+            <h3>mkdir</h3>
 
-    <p> the mkdir command is similar to the touch command except instead of making new files
-        the command makes new folders. The command stands for make directory, and a directory
-        is a fancy term for folder. This is because technically folders are fancy files that 
-        hold the location of the files that are associated with that folder, but don't worry
-        about this too much for now because this will be revisited in the future. the way
-        that mkdir works is that you type in the name of the command and then you supply the
-        name of the folder. Note that folders do not have any extensions so just a name will
-        suffice.</p>
+            <p> the mkdir command is similar to the touch command except instead of making new files
+                the command makes new folders. The command stands for make directory, and a directory
+                is a fancy term for folder. This is because technically folders are fancy files that 
+                hold the location of the files that are associated with that folder, but don't worry
+                about this too much for now because this will be revisited in the future. the way
+                that mkdir works is that you type in the name of the command and then you supply the
+                name of the folder. Note that folders do not have any extensions so just a name will
+                suffice.</p>
 
-    <h3>mv</h3>
+            <h3>mv</h3>
 
-    <p>the mv command stands for move, and it is used to move files around the computer. The way
-        that it works is that you supply it two arguments, which are the position of the file you
-        want to move and the destination that you want to place the file. Note that you can put
-        in the name of more than one file and have as many as you like, but you can have only
-        one destination that you put all the files into. the order that you have to type them
-        in is commandname files destination. Another thing that is interesting is that the move
-        command can also be used to rename a file. This is done by typing in the name of the 
-        file to be moved, and then you tell it to place it in the same location but inder a 
-        different name, and that looks like this:</p>
+            <p>the mv command stands for move, and it is used to move files around the computer. The way
+                that it works is that you supply it two arguments, which are the position of the file you
+                want to move and the destination that you want to place the file. Note that you can put
+                in the name of more than one file and have as many as you like, but you can have only
+                one destination that you put all the files into. the order that you have to type them
+                in is commandname files destination. Another thing that is interesting is that the move
+                command can also be used to rename a file. This is done by typing in the name of the 
+                file to be moved, and then you tell it to place it in the same location but inder a 
+                different name, and that looks like this:</p>
 
-    <h3>cp</h3>
+            <h3>cp</h3>
 
-    <p>the cp command stands for copy, and it is used to make a copy of a file that you choose and
-        to place it in a destination of your choice. It works by typing the command name followed
-        by location and name of the file that you want to copy, and then you specify a new location
-        and name that you want to make the new file as. If you want the file to have the same name
-        then you only need to specify the destination</p>
+            <p>the cp command stands for copy, and it is used to make a copy of a file that you choose and
+                to place it in a destination of your choice. It works by typing the command name followed
+                by location and name of the file that you want to copy, and then you specify a new location
+                and name that you want to make the new file as. If you want the file to have the same name
+                then you only need to specify the destination</p>
 
-    <h3>rm</h3>
+            <h3>rm</h3>
 
-    <p> the rm command stands for remove and is how we delete things. When you delete stuff with
-        rm it is permanent and it does not go in the trash bin, but rather is completely removed
-        from the system. If you are not sure if you want to delete somthing or not then be 
-        cautious with this command becasue there is no going back. The way it works is that you
-        have to type in the command followed by the location and name of the file that you
-        would like to remove. Then it will remove it. for this command there are some options that
-        you will have to know. For deleting folders/directories you will use the option -r and
-        often times you have to use -f to force the deletion of stuff that you are only allowed to
-        read. Usually you won't have to use the -f option, but it is a good one to know.</p>
+            <p> the rm command stands for remove and is how we delete things. When you delete stuff with
+                rm it is permanent and it does not go in the trash bin, but rather is completely removed
+                from the system. If you are not sure if you want to delete somthing or not then be 
+                cautious with this command becasue there is no going back. The way it works is that you
+                have to type in the command followed by the location and name of the file that you
+                would like to remove. Then it will remove it. for this command there are some options that
+                you will have to know. For deleting folders/directories you will use the option -r and
+                often times you have to use -f to force the deletion of stuff that you are only allowed to
+                read. Usually you won't have to use the -f option, but it is a good one to know.</p>
 
-    <h3>sudo</h3>
+            <h3>sudo</h3>
 
-    <p> the sudo command stands for super user do and it gives you the ability to do lots of
-        stuff that you need special privelages to do. Pretty much you wiull use this command
-        anytime you are using a command that will put things on or take things off of your
-        computer, or if a program needs special access to system files. This command is used
-        as a means to run a command that you might not have the ability to with your current
-        permissions as a normal user. The way it works is that you type in the command sudo
-        then you type in the command that you want to run like normal, and the effect is that
-        it will ask for your password before it runs your second command so it can grant
-        you admin privelages. It is a very simple and yet incredibly important command thatj
-        you will use more and more as you start digging into and learning more about the teminal.
-    </p>
+            <p> the sudo command stands for super user do and it gives you the ability to do lots of
+                stuff that you need special privelages to do. Pretty much you wiull use this command
+                anytime you are using a command that will put things on or take things off of your
+                computer, or if a program needs special access to system files. This command is used
+                as a means to run a command that you might not have the ability to with your current
+                permissions as a normal user. The way it works is that you type in the command sudo
+                then you type in the command that you want to run like normal, and the effect is that
+                it will ask for your password before it runs your second command so it can grant
+                you admin privelages. It is a very simple and yet incredibly important command thatj
+                you will use more and more as you start digging into and learning more about the teminal.
+            </p>
+        </section>
 
-    <h2>The File System</h2>
+        <section>
+            <h2>The File System</h2>
 
-    <p>The file system of your computer is a heirarchical structure in which things are organized.
-        In a unix type computer (mac and linux) the filesystem is completely contained inside
-        one folder. This folder is called the root folder and the symbol that represents it is
-        the /. All the folders in your computer are contained inside of other folders and all 
-        things are located inside of the root folder. So here are the locations of some interesting
-        folders that you might be familiar with. /Users/username/  this is your home folder
-        locaiton /Users/username/Desktop/ this is where the desktop is located.
-        the way we show where you are in the computer is by showing all the folders that you
-        are in. / means that you are inside of the folder on the left side, so /Users/
-        username/Desktop/ means that you are in the desktop folder that is inside your username
-        folder which is inside of the Users folder which is inside of the root folder.
-        When we use the terminal the default location that you are placed in is your home 
-        folder which is at this locaiton /Users/username/ all the actions that you take are
-        from within that folder. If you type in ls then it defaults to that location and 
-        shows you the contents of the folder that you are currently in. you can change
-        your location with cd. If you don't quite get it yet that is ok. Do some googling
-        and practice moving around the filesystem.</p>
+            <p>The file system of your computer is a heirarchical structure in which things are organized.
+                In a unix type computer (mac and linux) the filesystem is completely contained inside
+                one folder. This folder is called the root folder and the symbol that represents it is
+                the /. All the folders in your computer are contained inside of other folders and all 
+                things are located inside of the root folder. So here are the locations of some interesting
+                folders that you might be familiar with. /Users/username/  this is your home folder
+                locaiton /Users/username/Desktop/ this is where the desktop is located.
+                the way we show where you are in the computer is by showing all the folders that you
+                are in. / means that you are inside of the folder on the left side, so /Users/
+                username/Desktop/ means that you are in the desktop folder that is inside your username
+                folder which is inside of the Users folder which is inside of the root folder.
+                When we use the terminal the default location that you are placed in is your home 
+                folder which is at this locaiton /Users/username/ all the actions that you take are
+                from within that folder. If you type in ls then it defaults to that location and 
+                shows you the contents of the folder that you are currently in. you can change
+                your location with cd. If you don't quite get it yet that is ok. Do some googling
+                and practice moving around the filesystem.</p>
 
-    <h3>what is the file system</h3>
+            <h3>what is the file system</h3>
 
-    <p> So above we learned that the path shows all the folders you are in, but how do we show
-        where a file is inside of that folder heirarchy. The answer is quite simple. You put
-        in the path to the file and then you end it with the name of the file. So what does that
-        actually look like? Imagine we have a file called program.exe on the Desktop. The path to
-        that file looks like this /Users/username/Desktop/program.exe . As you can see we have 
-        the sequence of folders followed by slashes that lead up to the file followed by the 
-        name of the file. Viola now you can specify files on your computer.</p>
-    
-    <h3>absolute vs local path</h3>
+            <p> So above we learned that the path shows all the folders you are in, but how do we show
+                where a file is inside of that folder heirarchy. The answer is quite simple. You put
+                in the path to the file and then you end it with the name of the file. So what does that
+                actually look like? Imagine we have a file called program.exe on the Desktop. The path to
+                that file looks like this /Users/username/Desktop/program.exe . As you can see we have 
+                the sequence of folders followed by slashes that lead up to the file followed by the 
+                name of the file. Viola now you can specify files on your computer.</p>
+            
+            <h3>absolute vs local path</h3>
 
-    <p>so far what i have showed you is the absolute path, which stands for the path to a 
-        file starting at the root of the file system. This is great and we can reach all
-        files this way, but there is another way that we can tell the computer where things are
-        that is also really helpful. This other method is called the relative path and it is
-        the location of the file in the computer using your current location as the starting
-        point. Imagine that you are in the desktop and you want to get a file that is also in the
-        desktop. Instead of going and typing in the entire path from the root all the way down till
-        you reach your current location you simply just have to say ./program.exe . in this case
-        the dot (.) represents your current location, which is the path to the desktop. after the 
-        dot you can put in the path just like you would normally to go deeper into the file
-        system. What if the file that you want is outside of the folder that you are in? we only
-        covered how to go deeper into the file system and not out of folders. the way that we 
-        go back is with two dots (..) . this means that if we are on the Desktop and we want 
-        somthing that is located outside of the desktop then we just have to type in
-        ../program.exe  .  this can be chained to gether to keep going back like this:
-        ../../../program.exe   and can be done until you make it to the root folder. 
-        So remember folder/inside folder  . = current location  .. = previous folder from current
-        locaiton. </p>
+            <p>so far what i have showed you is the absolute path, which stands for the path to a 
+                file starting at the root of the file system. This is great and we can reach all
+                files this way, but there is another way that we can tell the computer where things are
+                that is also really helpful. This other method is called the relative path and it is
+                the location of the file in the computer using your current location as the starting
+                point. Imagine that you are in the desktop and you want to get a file that is also in the
+                desktop. Instead of going and typing in the entire path from the root all the way down till
+                you reach your current location you simply just have to say ./program.exe . in this case
+                the dot (.) represents your current location, which is the path to the desktop. after the 
+                dot you can put in the path just like you would normally to go deeper into the file
+                system. What if the file that you want is outside of the folder that you are in? we only
+                covered how to go deeper into the file system and not out of folders. the way that we 
+                go back is with two dots (..) . this means that if we are on the Desktop and we want 
+                somthing that is located outside of the desktop then we just have to type in
+                ../program.exe  .  this can be chained to gether to keep going back like this:
+                ../../../program.exe   and can be done until you make it to the root folder. 
+                So remember folder/inside folder  . = current location  .. = previous folder from current
+                locaiton. </p>
+        </section>
+    </main>
         
 </body>
 
