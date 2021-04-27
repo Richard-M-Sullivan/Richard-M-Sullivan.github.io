@@ -4,7 +4,7 @@ body{
 	margin:0px;
 	padding:0px;
 	background-color: #959595;
-	background: linear-gradient(0deg,#505050 0%,#f0f0f0 100%);
+	/* background: linear-gradient(0deg,#505050 0%,#f0f0f0 100%); */
 }
 
 header{
