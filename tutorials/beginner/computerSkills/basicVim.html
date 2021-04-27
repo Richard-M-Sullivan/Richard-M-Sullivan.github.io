@@ -4,165 +4,191 @@
 
 <head>
     <title>basic vim tutorial</title>
+    <link rel="stylesheet" href="/styles/styles_tutorial.css">
 </head>
 
 <body>
-    <h1>A Beginners Guide To Vim</h1>
+    <header>
+        <h1>A Beginners Guide To Vim</h1>
+    </header>
 
-    <a href="./tableOfContents.html">back</a>
+    <nav>
+        <a href="./tableOfContents.html">back</a>
+    </nav>
+    <article>
+        <p>Like all things in life, learning takes time, energy, and effort. Don't expect to complete This
+            tutorial feeling like you are an expert. If you don't like using vim I encourage you to stick
+            with it. Eventually it will begin to make sense and even if you decide that it is not for you,
+            just having it as an option makes all the difference if the situation arrives where it is the 
+            only option. Good luck and don't stress about learning everyting all at once!
+        </p>
+    </article>
+    <main>
+        <section>
+            <h2> A Programmer's Editor </h2>
 
-    <h2> A Programmer's Editor </h2>
+            <p>when programming it is important to use the right kind of editor. this is important
+                because the computer wants your file to be of a certain type. This text format should be
+                plain text, so it is important to use a program that will create a plain text file. For
+                example microsoft word does not write text files. This is because word uses it's own
+                document format that way it can imbed information about how to make the document look
+                rather than just the textual content. Also for certain things text edit for the mac can
+                do similar things. It if for these reasons that you should use an editor that does not
+                add informaion to your file other than the text that you place into it.</p>
+        </section>
 
-    <p>when programming it is important to use the right kind of editor. this is important
-        because the computer wants your file to be of a certain type. This text format should be
-        plain text, so it is important to use a program that will create a plain text file. For
-        example microsoft word does not write text files. This is because word uses it's own
-        document format that way it can imbed information about how to make the document look
-        rather than just the textual content. Also for certain things text edit for the mac can
-        do similar things. It if for these reasons that you should use an editor that does not
-        add informaion to your file other than the text that you place into it.</p>
+        <section>
+            <h2>What types of editors are there?</h2>
 
-    <h2>What types of editors are there?</h2>
+            <p> for programming there are two main kinds of editors. There are text editors and there are
+                IDE's. IDE is an acronym that stands for integrated development environment. An IDE is an
+                advanced programming tool that allows you to create code projects and the IDE will place
+                extra information into your project to make it easier for you to debug your code and it
+                will automate a lot of the processies that you would have to do manually like building
+                and exporting your project into an app or executable format. An ide is like the microsoft
+                word of the programming world, but because for many applications using an ide is a bit of 
+                over kill, and should mainly be reserved for larger projects or used on computers that can
+                handle running such a large application. The second type is the text editor. This is a 
+                program that just lets you edit text. Sometimes it includes some features found in an IDE
+                such as code completion and syntax highlighting, but a text editor is a much simpeler 
+                program that does less for you and adds less to your project leaving it as just the code 
+                that you write and nothing more. I personally prefer using a text editor because it is 
+                simpeler to learn, doesn't lock you to a certain platform and gives you the ability to
+                mix and match all the programs that you use during the development process, though it is
+                often times much more work to get things set up if you don't know the inner workings 
+                of how to take code and turn it into a running application. I do reccomend starting out
+                with using a text editor in that it will teach you more about the programming process 
+                than using an IDE will, and it is simpeler and fater to get started if you use a language
+                like pyhton that is not precompiled.</p>
+        </section>
 
-    <p> for programming there are two main kinds of editors. There are text editors and there are
-        IDE's. IDE is an acronym that stands for integrated development environment. An IDE is an
-        advanced programming tool that allows you to create code projects and the IDE will place
-        extra information into your project to make it easier for you to debug your code and it
-        will automate a lot of the processies that you would have to do manually like building
-        and exporting your project into an app or executable format. An ide is like the microsoft
-        word of the programming world, but because for many applications using an ide is a bit of 
-        over kill, and should mainly be reserved for larger projects or used on computers that can
-        handle running such a large application. The second type is the text editor. This is a 
-        program that just lets you edit text. Sometimes it includes some features found in an IDE
-        such as code completion and syntax highlighting, but a text editor is a much simpeler 
-        program that does less for you and adds less to your project leaving it as just the code 
-        that you write and nothing more. I personally prefer using a text editor because it is 
-        simpeler to learn, doesn't lock you to a certain platform and gives you the ability to
-        mix and match all the programs that you use during the development process, though it is
-        often times much more work to get things set up if you don't know the inner workings 
-        of how to take code and turn it into a running application. I do reccomend starting out
-        with using a text editor in that it will teach you more about the programming process 
-        than using an IDE will, and it is simpeler and fater to get started if you use a language
-        like pyhton that is not precompiled.</p>
+        <section>
+            <h2> What Is Vim </h2>
 
-    <h2> What Is Vim </h2>
+            <p> Vim is a text editor, but not just any text editor, a text editor that is notoriously
+                famous among programmers for it's reliability and it's clever design. What makes vim
+                special is that it runs in the command line, which makes it a univeral editor that can
+                be run nerely everywhere, even on remote systems that you don't have the ability to 
+                use a gui for. Not only that, but vim comes standard on most systems and can be installed
+                and used on every type of computer, which makes it nice because the environment that you
+                program in will not change between different types of computers. </p>
+        </section>
 
-    <p> Vim is a text editor, but not just any text editor, a text editor that is notoriously
-        famous among programmers for it's reliability and it's clever design. What makes vim
-        special is that it runs in the command line, which makes it a univeral editor that can
-        be run nerely everywhere, even on remote systems that you don't have the ability to 
-        use a gui for. Not only that, but vim comes standard on most systems and can be installed
-        and used on every type of computer, which makes it nice because the environment that you
-        program in will not change between different types of computers. </p>
+        <section>
+            <h2> How to Install Vim</h2>
 
-    <h2> How to Install Vim</h2>
+            <p> For most systems vim comes by default. If you have linux then you most likely have vim, and
+                if you have mac then you most likely have vim. If you don't, then there are a couple ways
+                to get it intalled. If you are on linux you can use your package manager to install vim. 
+                just type in apt-get install vim, or the appropriate command for your package manager. For
+                mac you can use homebrew, just type into the terminal homebrew install vim. If you don't
+                have a package manager then you have to isntall it manually. To do this go to the vim 
+                website vim.org and download vim. Make sure to get the correct version for your computer.
+                The next step once vim is downloaded is to add vim to the system path, so make sure you
+                figure out where vim is downloaded and in the setting of your computer add the path to the
+                vim program so that way when you type in vim the computer knows where to look in order
+                to use your installed version of vim.</p>
+        </section>
 
-    <p> For most systems vim comes by default. If you have linux then you most likely have vim, and
-        if you have mac then you most likely have vim. If you don't, then there are a couple ways
-        to get it intalled. If you are on linux you can use your package manager to install vim. 
-        just type in apt-get install vim, or the appropriate command for your package manager. For
-        mac you can use homebrew, just type into the terminal homebrew install vim. If you don't
-        have a package manager then you have to isntall it manually. To do this go to the vim 
-        website vim.org and download vim. Make sure to get the correct version for your computer.
-        The next step once vim is downloaded is to add vim to the system path, so make sure you
-        figure out where vim is downloaded and in the setting of your computer add the path to the
-        vim program so that way when you type in vim the computer knows where to look in order
-        to use your installed version of vim.</p>
+        <section>
+            <h2> How to Use Vim</h2>
 
-    <h2> How to Use Vim</h2>
+            <p> vim si waht we call a modal editor. This means that when you use vim you have to go into
+                different modes in order to perform certain tasks. For example there are 4 modes in vim.
+                there is insert mode, where you insert text into the document. There is edit mode, where
+                you use the keyboard to issue commands on how to edit and manipulate what you have already
+                written. There is line mode, where you delegate commands like save and quit or make a new
+                window or open a new document. And lastly there is Visual mode where you can highlight 
+                and select areas of text. I will leave the explination at that and we will touch on how 
+                to select modes and how each one works later in this tutorial, but first we will cover
+                some basic operations that will allow you to practice while I explain how things work.</p>
 
-    <p> vim si waht we call a modal editor. This means that when you use vim you have to go into
-        different modes in order to perform certain tasks. For example there are 4 modes in vim.
-        there is insert mode, where you insert text into the document. There is edit mode, where
-        you use the keyboard to issue commands on how to edit and manipulate what you have already
-        written. There is line mode, where you delegate commands like save and quit or make a new
-        window or open a new document. And lastly there is Visual mode where you can highlight 
-        and select areas of text. I will leave the explination at that and we will touch on how 
-        to select modes and how each one works later in this tutorial, but first we will cover
-        some basic operations that will allow you to practice while I explain how things work.</p>
+            <h3> how to open a file </h3>
 
-    <h3> how to open a file </h3>
+            <p> the first thing to know about using vim is how to open the program and how to open files
+                that you want to edit. In order to open vim you type in vim in the commandline and hit
+                enter. then you will see the vim startup screen. Don't try to type anything because you
+                wont be able to. Vim opens up by default in the edit mode, so hold your horses until I
+                explain what to do. In order to open a file from this window press : and type in e 
+                followed by a space followed by the name of the file that you want to open like this:
+                :e ./myfile.txt  . make sure you use an extension. after you type that in hit enter and
+                the file will be pulled up in the viewing window. There is another way to open a file in
+                vim, and this is how you do it if vim is not already opened, but you want to open the
+                file up with vim directly instead of opening vim first and then opening the file. to do
+                this just type in vim followed by a space and then followed by the name of the file that
+                you want to edit like this:  vim ./myfile.txt then hit enter and vim will open up with 
+                your file open fromt he start. </p>
 
-    <p> the first thing to know about using vim is how to open the program and how to open files
-        that you want to edit. In order to open vim you type in vim in the commandline and hit
-        enter. then you will see the vim startup screen. Don't try to type anything because you
-        wont be able to. Vim opens up by default in the edit mode, so hold your horses until I
-        explain what to do. In order to open a file from this window press : and type in e 
-        followed by a space followed by the name of the file that you want to open like this:
-        :e ./myfile.txt  . make sure you use an extension. after you type that in hit enter and
-        the file will be pulled up in the viewing window. There is another way to open a file in
-        vim, and this is how you do it if vim is not already opened, but you want to open the
-        file up with vim directly instead of opening vim first and then opening the file. to do
-        this just type in vim followed by a space and then followed by the name of the file that
-        you want to edit like this:  vim ./myfile.txt then hit enter and vim will open up with 
-        your file open fromt he start. </p>
+            <h3> how to save and quit </h3>
 
-    <h3> how to save and quit </h3>
+            <p> in order to save your file you have to be inside of edit mode, and then press : to go
+                into line mode to enter in a command. then press the w key and press enter and the file
+                will be saved. a way to remember this is that the w stands for write file.
+                if you want to quit out of vim make sure that you  are in the edit mode and then
+                press : to go into line mode to enter a command then type in q and hit enter causing
+                vim to shut down. A good way to remember this is that q stands for quit. If you want to
+                save and quit, instead of doing them seperately you can do this instead. Make sure that
+                you are in edit mode and press : to go into line mode to enter a command. then type in
+                wq and then hit enter to write nnd then quit in the same command </p>
 
-    <p> in order to save your file you have to be inside of edit mode, and then press : to go
-        into line mode to enter in a command. then press the w key and press enter and the file will be saved. a way to remember this is that the w stands for write file.
-        if you want to quit out of vim make sure that you  are in the edit mode and then
-        press : to go into line mode to enter a command then type in q and hit enter causing
-        vim to shut down. A good way to remember this is that q stands for quit. If you want to
-        save and quit, instead of doing them seperately you can do this instead. Make sure that
-        you are in edit mode and press : to go into line mode to enter a command. then type in
-        wq and then hit enter to write nnd then quit in the same command </p>
+            <h3> how to edit the file </h3>
 
-    <h3> how to edit the file </h3>
+            <p>ok this is the most complicate part of vim so make sure to pay attention and bare with
+                me because vim is going to seem awkward and clunky until you are able to wrap your
+                head around thins part. First we need to know about edit mode. this mode acts as the 
+                central hub from which all other modes are reached, so if you are trying to get into 
+                insertmode but can't try to get into edit mode first. Thhis is really important to
+                remember because everything is built around the idea that you are to spend most of
+                your time editing rather than writing. To get into edit mode you press the escape key.
+                sometimes you may have to press it many times, but you will eventually make it into
+                edit mode. Once here all of the keys on the keyboard become options and commands instead
+                of letters. To move around your document we use the letter keys hjkl and they act in 
+                a similar manner to the arrow keys being that h goes left j goes down k goes up and
+                l goes to the right. this is one of the ways that you can move around your document.
+                in order to delete letters you can type in x and that will delete the letter that is
+                under the cursor. That is mainly the only thing you need to know at the tart of editing
+                bit there are lots of commands and there are many types of commands that can be combined
+                to build even more interesting and powerful commands, but don't worry about this for now
+                becasue if you get overwhelmed then you won't be willing to keep on learning.</p>
 
-    <p>ok this is the most complicate part of vim so make sure to pay attention and bare with
-        me because vim is going to seem awkward and clunky until you are able to wrap your
-        head around thins part. First we need to know about edit mode. this mode acts as the 
-        central hub from which all other modes are reached, so if you are trying to get into 
-        insertmode but can't try to get into edit mode first. Thhis is really important to
-        remember because everything is built around the idea that you are to spend most of
-        your time editing rather than writing. To get into edit mode you press the escape key.
-        sometimes you may have to press it many times, but you will eventually make it into
-        edit mode. Once here all of the keys on the keyboard become options and commands instead
-        of letters. To move around your document we use the letter keys hjkl and they act in 
-        a similar manner to the arrow keys being that h goes left j goes down k goes up and
-        l goes to the right. this is one of the ways that you can move around your document.
-        in order to delete letters you can type in x and that will delete the letter that is
-        under the cursor. That is mainly the only thing you need to know at the tart of editing
-        bit there are lots of commands and there are many types of commands that can be combined
-        to build even more interesting and powerful commands, but don't worry about this for now
-        becasue if you get overwhelmed then you won't be willing to keep on learning.</p>
+            <h3> how to write in your file </h3>
 
-    <h3> how to write in your file </h3>
+            <p> so you now how to edit a file, but we don't know how to add things to the file yet!
+                in order to do that you have to go into insert mode. To do this make sure that you are
+                in the edit mode and press i. Now you will be in insert mode. In this mode you just
+                type and everything works as you expect. when you are done typing and want to move around
+                the document again make sure to hit escape to go back into edit mode, which will remap
+                the keys to allow you to move around. Make sure to practice switching between edit mode
+                and insert mode quickly for this will be hapeining all the time. </p>
 
-    <p> so you now how to edit a file, but we don't know how to add things to the file yet!
-        in order to do that you have to go into insert mode. To do this make sure that you are
-        in the edit mode and press i. Now you will be in insert mode. In this mode you just
-        type and everything works as you expect. when you are done typing and want to move around
-        the document again make sure to hit escape to go back into edit mode, which will remap
-        the keys to allow you to move around. Make sure to practice switching between edit mode
-        and insert mode quickly for this will be hapeining all the time. </p>
+            <h3> viual mode </h2>
 
-    <h3> viual mode </h2>
+            <p> this mode is for highlighting and selecting. you go into it by pressing v in edit mode
+                this will put you into visual mode. You can move around the same way that you do in
+                edit mode, with hjkl, but you will see that a you do it will highlight stuff. this is
+                nice for selecting specivfic chunks of text. If you want to copy and paste you can go into
+                visual mode and highloght a portion of stuff and then hit the y key, which stands for 
+                yank, to copy the highlighted text. Now if you want to paste it you can hit escape to 
+                go back into edit mode and then navigate to where you want to paste the text and hit p.
+                now you should see the text get printed to the screen. </p>
+        </section>
 
-    <p> this mode is for highlighting and selecting. you go into it by pressing v in edit mode
-        this will put you into visual mode. You can move around the same way that you do in
-        edit mode, with hjkl, but you will see that a you do it will highlight stuff. this is
-        nice for selecting specivfic chunks of text. If you want to copy and paste you can go into
-        visual mode and highloght a portion of stuff and then hit the y key, which stands for 
-        yank, to copy the highlighted text. Now if you want to paste it you can hit escape to 
-        go back into edit mode and then navigate to where you want to paste the text and hit p.
-        now you should see the text get printed to the screen. </p>
+        <section>
+            <h2> vim tutor </h3>
 
-    <h2> vim tutor </h3>
-
-    <p> there are nearly endless commands and command combinations that are at your disposal and
-        we only just barey scratched the surface of what vim is able to do. If you are comfortable 
-        using what you know and want to take your vim game futher try typing vimtutor into the 
-        command line and this will take you to a tutorial page for vim similar to the one you just
-        read except probably better and easier to follow. It will cover more commands than the
-        ones I went over and is a good starting point for a beginner. Just keep in mind that vim
-        tutor only covers the basics and there is still many many more comands out there. My
-        recomendation is that if there is somthing that you keep doing, but havent found a good
-        way to do it with the commands that you know there is probably some other commands that you
-        could use to accomplish that task, so google it and see what commands other poeople use.
-    </p>
-
+            <p> there are nearly endless commands and command combinations that are at your disposal and
+                we only just barey scratched the surface of what vim is able to do. If you are comfortable 
+                using what you know and want to take your vim game futher try typing vimtutor into the 
+                command line and this will take you to a tutorial page for vim similar to the one you just
+                read except probably better and easier to follow. It will cover more commands than the
+                ones I went over and is a good starting point for a beginner. Just keep in mind that vim
+                tutor only covers the basics and there is still many many more comands out there. My
+                recomendation is that if there is somthing that you keep doing, but havent found a good
+                way to do it with the commands that you know there is probably some other commands that you
+                could use to accomplish that task, so google it and see what commands other poeople use.
+            </p>
+        </section>
+    </main>
 </body>
 
 </html>
