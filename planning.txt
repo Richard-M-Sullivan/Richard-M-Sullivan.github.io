@@ -108,3 +108,43 @@
 
 
 projects
+    fun club
+        identifying a problem to develope a solution for
+
+        exploring technologies to develope a solution
+
+        talking about the forms that are used for registration and
+        learning how they are stored in the data base
+
+        what technologies do I need to learn in order to fulfill the project?
+            git
+            trello
+            rasberry pi
+            javascript
+            react.js
+            node.js
+            express
+            google sheets
+            sql
+        
+        step 1 identify the problem
+            need a better way to manage parent and child information
+            a way to organize and store payment informaiton
+            the ability to make a tax letter from the payment information
+
+        step 2 learn the technologies needed to complete the project
+            - learn git
+            - learn trello
+            - learn javascript
+            - learn developing for rasberry pi
+            - learn react.js
+            - learn node.js
+            - learn express
+            - learn sql
+            - learn google sheets
+            - learn to link react with node and express
+            - learn to link node with sql
+            - learn about serving a web api
+            - learn about connecting to the web service on a local network
+
+
