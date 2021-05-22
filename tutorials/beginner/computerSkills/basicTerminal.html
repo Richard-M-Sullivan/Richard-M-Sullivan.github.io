@@ -52,16 +52,17 @@
             <h2>How to Use The Terminal</h2>
 
             <p>
-                The first thing to do is to open the terminal. If you are on a mac or linux computer then
-                this should be a simple process, but if you are on windows then you need to download a
-                unix style terminal emulator because command prompt on windows is not that great to deal
-                with and all the tutorials assume you are using a unix style terminal. That being said,
-                when you open it, it should look like thins:
+                The first thing to do is open the terminal application. If you are using a mac or linux computer, then
+                this should be a simple process - find the terminal application and click it!.
+                If you are on windows then you need to download a
+                unix-style terminal emulator because the tutorials assume you are using a specific type
+                of terminal program. That being said, when you open the terminal application
+                you will be greeted by a black window, which looks like this:
             </p>
 
             <p>
-                What you see should be a black screen that has a line of text at the top. That line of text
-                is called the command prompt, which as the name suggests lets you know that the terminal
+                The terminal screen has a line of text at the top. That line of text
+                is called the command prompt, which lets you know that the terminal
                 is ready for you to type in a command.
             </p>
         </section>
@@ -71,24 +72,26 @@
 
             <p>
                 The flow of the terminal is to type a command, let it run, and read the information that
-                it gives back. For commands there is a specific format that you have to adhere to that 
-                looks like this: CommandName [options] arguments . Ok, so what does that mean? The 
-                command name refers to the name of the command, and the arguments are what you want to
-                run the command on. For example there is a command that is of the name ls. If you type
-                ls into the command line and hit enter it will list all the files and folders that are
-                at your current location in the file system. If you type in: ls ~/Desktop  then you will
-                see all the files and folders that are on the desktop. In this case ~/Desktop is the
-                argument, which is a fancy way to say the data that you are passing to the program called
-                ls. In this case ls wants a file location as an argument, and it will give you information
-                of what is located at the location that you provided. Now that we know about commands and
+                it gives back. To issue a command, there is a specific format you need to use. That format 
+                looks like this: <strong>CommandName [options] arguments</strong>. Ok, so what does that mean?
+                <strong>CommandName</strong> refers to the name of the command, which is a program that you want to run.
+                <strong>Arguments</strong> are pieces of information that a command needs to run.
+                For example, there is a command called ls. If you type
+                ls into the command line and hit enter, then it will show you all the files and folders
+                that are at your current location in the file system. If you type in: <strong>ls ~/Desktop</strong> then you will
+                see all the files and folders that are on the desktop. In this case <strong>~/Desktop</strong> is the
+                argument being passed to ls.
+                ls takes in file locations as arguments, and it will show you all the files and folders 
+                at the locations provided. Now that we know about commands and
                 arguments we can look at options. An option is a form of argument that you pass to the
-                command that changes the nature of how the command runs. For example the command:
-                ls ~/Desktop  will give you the files and folders on the desktop, but if you add the
-                argument: -a then it will show you not only files and folders, but also hidden files and 
-                folders that you are normally not supposed to see. The way that this is formatted is like
-                this: ls -a ~Desktop  . Here we see that ls is the name -a is the option and ~/Desktop
-                is the argument. The way that you specify somthing as an argument is that it has a - in
-                front of it. you can even have many options that would look like this: ls -l -a ~/Desktop
+                command which changes the nature of what the command does. For example, the command
+                <strong>ls ~/Desktop</strong> shows you the files and folders on the desktop, but if you add the
+                argument: -a then it will show you not only show the files and folders, but it will also show hidden files and 
+                folders that you are normally not supposed to see. The command with the argument -a is formatted like
+                this: <strong>ls -a ~Desktop</strong>. ls is the command name, -a is the command option, and ~/Desktop
+                is the command argument. Arguments begin with a dash(-) followed by a letter, or two dashes(--) followed by a word.
+                You can have as many options as you want. Having many options looks like this: ls -l -a ~/Desktop
+                (this command lists all the files and directories on the desktop - including hidden files and displayed in a long format)
             </p>
         </section>
 
