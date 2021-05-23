@@ -1,21 +1,11 @@
 
 
+TO DO:
 
 #blog posts
 
 
 #tutorials
-
-	#basic computer skils
-		#how to solve your problems
-			#understand what you want to accomplish
-				#break down the problem
-				#browse what others have done
-			#find relative terms and jargon
-			#google is your friend
-				#identify how to ask for what you want to know how to do
-				#find answers formmany sources and take notes
-				#be original, others for inspiration and help not to do the work for you
 
 		#how to use the terminal
 			what is the terminal?
