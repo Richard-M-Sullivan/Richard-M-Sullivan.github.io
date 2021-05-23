@@ -16,80 +16,71 @@
         <a href="./tableOfContents.html">back</a>
     </nav>
     <article>
-        <p>Like all things in life, learning takes time, energy, and effort. Don't expect to complete This
-            tutorial feeling like you are an expert. If you don't like using vim I encourage you to stick
-            with it. Eventually it will begin to make sense and even if you decide that it is not for you,
-            just having it as an option makes all the difference if the situation arrives where it is the 
-            only option. Good luck and don't stress about learning everyting all at once!
+        <p>
+            Like all things in life, learning takes time, energy, and effort. Don't expect to finish the
+            tutorial having a complete understanding of how to use vim.
+            If you don't like using vim at first don't quit!
+            Eventually it will get easier once you put in enough time.
+            Good luck, and don't stress about learning everything in one go!
         </p>
     </article>
     <main>
         <section>
             <h2> A Programmer's Editor </h2>
 
-            <p>when programming it is important to use the right kind of editor. this is important
-                because the computer wants your file to be of a certain type. This text format should be
-                plain text, so it is important to use a program that will create a plain text file. For
-                example microsoft word does not write text files. This is because word uses it's own
-                document format that way it can imbed information about how to make the document look
-                rather than just the textual content. Also for certain things text edit for the mac can
-                do similar things. It if for these reasons that you should use an editor that does not
-                add informaion to your file other than the text that you place into it.</p>
+            <p>
+                When programming, it is important to use the right kind of editor. This is
+                because code files need to be plain text, so use an editor which works with that kind of file.
+                Microsoft Word does not work well because Word uses it's own
+                document format - it does this to imbed information about how to format the document's
+                textual content. It is for this reason that an editor should be used that does not
+                add information to your file other than the text itself.
+            </p>
         </section>
 
         <section>
-            <h2>What types of editors are there?</h2>
+            <h2>What Types of Editors Are There?</h2>
 
-            <p> for programming there are two main kinds of editors. There are text editors and there are
-                IDE's. IDE is an acronym that stands for integrated development environment. An IDE is an
-                advanced programming tool that allows you to create code projects and the IDE will place
-                extra information into your project to make it easier for you to debug your code and it
-                will automate a lot of the processies that you would have to do manually like building
-                and exporting your project into an app or executable format. An ide is like the microsoft
-                word of the programming world, but because for many applications using an ide is a bit of 
-                over kill, and should mainly be reserved for larger projects or used on computers that can
-                handle running such a large application. The second type is the text editor. This is a 
-                program that just lets you edit text. Sometimes it includes some features found in an IDE
-                such as code completion and syntax highlighting, but a text editor is a much simpeler 
-                program that does less for you and adds less to your project leaving it as just the code 
-                that you write and nothing more. I personally prefer using a text editor because it is 
-                simpeler to learn, doesn't lock you to a certain platform and gives you the ability to
-                mix and match all the programs that you use during the development process, though it is
-                often times much more work to get things set up if you don't know the inner workings 
-                of how to take code and turn it into a running application. I do reccomend starting out
-                with using a text editor in that it will teach you more about the programming process 
-                than using an IDE will, and it is simpeler and fater to get started if you use a language
-                like pyhton that is not precompiled.</p>
+            <p> 
+                For programming, there are two kinds of editors. There are plain text editors and 
+                IDEs (IDE stands for integrated development environment). An IDE is an
+                advanced programming tool which provides extra features such as an automated build process,
+                ways to export your project as an application, and tools for debugging.
+                An IDE is the Microsoft Word of the programming world, and for many applications using an IDE is
+                over kill. This is mainly due to the nature of smaller projects, which are simpler and don't require
+                all the tools that an IDE provides. Smaller projects are where the humble plain text editors really shine.
+                Plain text editors provide a minimalistic experience, where you have only the basic necessities such as
+                code completion and syntax highlighting. I prefer using a text editor because of it's simplicity, 
+                and that it doesn't lock you into programming on a specific platform. For beginners I 
+                recommend starting out with using a text editor because it doesn't do things for you like an IDE would. This
+                is important because it teaches you how to do everything yourself - that way, when you graduate to using an IDE
+                you will be able to diagnose and fix problems if the IDE is not able to do what you want.
+            </p>
         </section>
 
         <section>
             <h2> What Is Vim </h2>
 
-            <p> Vim is a text editor, but not just any text editor, a text editor that is notoriously
-                famous among programmers for it's reliability and it's clever design. What makes vim
-                special is that it runs in the command line, which makes it a univeral editor that can
-                be run nerely everywhere, even on remote systems that you don't have the ability to 
-                use a gui for. Not only that, but vim comes standard on most systems and can be installed
-                and used on every type of computer, which makes it nice because the environment that you
-                program in will not change between different types of computers. </p>
+            <p> Vim is a text editor that is notorious among programmers. What makes vim
+                special is that it runs in the command line. This makes vim a universal editor that can
+                be run everywhere, even on computers you only have remote access to. Also, because vim is
+                so prevalent it comes pre installed on most unix based computers. It is a learn once and use everywhere
+                type of application. </p>
         </section>
 
         <section>
             <h2> How to Install Vim</h2>
 
-            <p> For most systems vim comes by default. If you have linux then you most likely have vim, and
-                if you have mac then you most likely have vim. If you don't, then there are a couple ways
-                to get it intalled. If you are on linux you can use your package manager to install vim. 
-                just type in apt-get install vim, or the appropriate command for your package manager. For
-                mac you can use homebrew, just type into the terminal homebrew install vim. If you don't
-                have a package manager then you have to isntall it manually. To do this go to the vim 
-                website vim.org and download vim. Make sure to get the correct version for your computer.
-                The next step once vim is downloaded is to add vim to the system path, so make sure you
-                figure out where vim is downloaded and in the setting of your computer add the path to the
-                vim program so that way when you type in vim the computer knows where to look in order
-                to use your installed version of vim.</p>
-        </section>
-
+            <p> 
+                If you don't have vim pre installed then follow the steps below.
+                For Linux, use your package manager to install vim: sudo apt-get install vim (for debian based distributions). 
+                For Mac, you can use homebrew, just type into the terminal: homebrew install vim. If you don't
+                have a package manager, then you have to install it manually. To do this, go to the vim 
+                website (vim.org), download vim, and add vim to the system path.
+                To do that, figure out where vim is downloaded, then add the path to the
+                vim program to the system path in your computer's settings. This is so the computer knows where to
+                find the application when you type it into the terminal.
+            </p> 
         <section>
             <h2> How to Use Vim</h2>
 
