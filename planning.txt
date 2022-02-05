@@ -1,140 +1,37 @@
 
+nice color cheme:
+
+264653 Charcoal (dark green)
+2A9D8F Persian Green (light green)
+E9C46A Orange Yellow Crayola (yellow)
+F4A261 Sandy Brown (orange)
+E76F51 Burnt Sienna (dark orange)
 
 TO DO:
 
-#blog posts
+Home Page:
+    Create Logo
+    Create Art
 
+About Me:
+    Design page
 
-#tutorials
+Projects:
+    Design page
 
-		#how to use the terminal
-			what is the terminal?
-			how are commands formatted?
-			list of the most basic and essential commands
+Learn:
+    Design page
 
-		vim
-			what is vim?
-			how to use vim
-			how to make vim fit your needs (rc files)
-			example of a simple vimrc file
+Blog:
+    Design page
 
-	#beginner python
-		setup
-			what is python
-			how to setup python
-			how to use python
-			options for writing python files
-				idle
-				vim
-				text editor or ide
+LinkedIn:
+    create linkedin
 
-			how to run a pyhton project
+Email:
+    create email for site
 
-		input and output
-			print
-			input
-
-		simple data in python
-			values
-				int 
-				float
-				string
-
-			operators
-			
-			booleans
-				True/False
-				conditionals
-
-			making decisions
-				if statement
-				else statment
-				if else chain
-
-			repetition
-				for loop
-					range
-				while loop
-				do while
-
-			combining loops and conditionas with loops and conditionals
-				nesting if statements
-				nesting loops
-				scope
-					local global
-
-			functions
-				what are funstions for?
-				how to format a function
-					def
-					parameters
-				how to use the perameters
-				scope again...
-				return
-
-			type casting
-				take one type of data and change it into another
-
-			complex data
-				lists
-				tuples
-				dictionaries
-			
-			more on strings
-			
-			for loops
-				blank in blank
-			
-			even more complicated data
-				what are classes?
-				why use classes?
-				bundling data with functions
-				member vriables
-				methods
-				how to make a class
-				how to call a method of a class
-				using classes as a means of representing objects
-				object oriented programming
-
-
-projects
-    fun club
-        identifying a problem to develope a solution for
-
-        exploring technologies to develope a solution
-
-        talking about the forms that are used for registration and
-        learning how they are stored in the data base
-
-        what technologies do I need to learn in order to fulfill the project?
-            git
-            trello
-            rasberry pi
-            javascript
-            react.js
-            node.js
-            express
-            google sheets
-            sql
-        
-        step 1 identify the problem
-            need a better way to manage parent and child information
-            a way to organize and store payment informaiton
-            the ability to make a tax letter from the payment information
-
-        step 2 learn the technologies needed to complete the project
-            - learn git
-            - learn trello
-            - learn javascript
-            - learn developing for rasberry pi
-            - learn react.js
-            - learn node.js
-            - learn express
-            - learn sql
-            - learn google sheets
-            - learn to link react with node and express
-            - learn to link node with sql
-            - learn about serving a web api
-            - learn about connecting to the web service on a local network
+GitHub:
+    link to github
 
 
