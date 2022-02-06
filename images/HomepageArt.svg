@@ -8,9 +8,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="24mm"
+   height="9mm"
+   viewBox="0 0 24 9"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
@@ -54,23 +54,10 @@
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
-       id="filter3323"
-       x="-0.0254408"
-       width="1.0508816"
-       y="-0.017671169"
-       height="1.0353423">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.027559171"
-         id="feGaussianBlur3325" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
        id="filter3783"
-       x="-0.67549518"
-       width="2.3509904"
-       y="-0.50640201"
+       x="-0.67549521"
+       width="2.3509903"
+       y="-0.50640202"
        height="2.012804">
       <feGaussianBlur
          inkscape:collect="always"
@@ -81,9 +68,9 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter4047"
-       x="-0.0037064207"
+       x="-0.0037064208"
        width="1.0074128"
-       y="-0.0027786119"
+       y="-0.0027786118"
        height="1.0055572">
       <feGaussianBlur
          inkscape:collect="always"
@@ -107,11 +94,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.314466"
-     inkscape:cx="47.960374"
-     inkscape:cy="7.0363465"
+     inkscape:zoom="4.0538316"
+     inkscape:cx="-33.473439"
+     inkscape:cy="-1.904665"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer18"
+     inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:snap-grids="false"
@@ -125,11 +112,18 @@
      inkscape:window-height="847"
      inkscape:window-x="3"
      inkscape:window-y="25"
-     inkscape:window-maximized="0">
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:pagecheckerboard="false">
     <inkscape:grid
        type="xygrid"
        id="grid833"
-       units="mm" />
+       units="mm"
+       originx="3.5527136e-15"
+       originy="3.5527138e-15" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -147,7 +141,6 @@
      inkscape:label="Background"
      inkscape:groupmode="layer"
      id="layer1"
-     sodipodi:insensitive="true"
      style="display:inline">
     <rect
        style="fill:url(#linearGradient875);fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -550,7 +543,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer18"
-     inkscape:label="screenText">
+     inkscape:label="screenText"
+     sodipodi:insensitive="true">
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:0.162864px;line-height:1.25;font-family:sans-serif;fill:#f8f6f6;fill-opacity:1;stroke:none;stroke-width:0.172344"
