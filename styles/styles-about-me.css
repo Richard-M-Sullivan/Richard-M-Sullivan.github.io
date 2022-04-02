@@ -1,0 +1,31 @@
+main{
+    display:flex;
+    justify-content:flex-end;
+    /*height:68vh;*/
+    height:auto;
+    background:#2A9D8F; 
+}
+
+main .left-side{
+    height:68vh;
+    margin-left:5vh;
+}
+
+main .left-side h1{
+    color:black;
+    text-align:center;
+}
+main .left-side img{
+    display:block;
+    height:50vh;
+    width:auto;
+    margin-left:5vh;
+    object-fit:scale-down;
+}
+
+main .right-side{
+    background-color:white;
+    padding:10vh;
+    margin:5vh;
+    border:solid black 10px;
+}
