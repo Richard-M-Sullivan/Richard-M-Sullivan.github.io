@@ -14,9 +14,6 @@ TO DO:
 Home Page:
     Create Logo
 
-About Me:
-    Design page
-
 Projects:
     Design page
 
@@ -28,11 +25,4 @@ Blog:
 
 LinkedIn:
     create linkedin
-
-Email:
-    create email for site
-
-GitHub:
-    link to github
-
 
