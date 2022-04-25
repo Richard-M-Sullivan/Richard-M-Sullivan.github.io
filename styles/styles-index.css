@@ -2,6 +2,7 @@ body{
 	margin:0px;
 	padding:0px;
     background-color:black;
+    height:100%;
 }
 
 .banner{
@@ -54,18 +55,21 @@ nav{
     width:100%;
     font-size:4vh;
     text-decoration:none;
+}
+
+.glow{
     transition: background-color 0.2s;
 }
 
-.nav-button:hover{
+.glow:hover{
     background-color:#E9C46A;
     transition: background-color 0.3s;
 }
 
 main{
     display:flex;
-    justify-content:flex-end;
-    height:68vh;
+    justify-content:flex-start;
+    min-height: calc(100vh - 20vh - 6vh - 6vh);
     background:#2A9D8F; 
 }
 
