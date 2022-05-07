@@ -73,7 +73,7 @@ main{
     background:#2A9D8F; 
 }
 
-ol{
+ol, ul{
     margin: 0px 0px 0px 0px;
     background:white;
     font-size:1.2em;
