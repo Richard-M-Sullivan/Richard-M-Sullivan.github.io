@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title> The Sullivan Code Blog </title>
+  <link rel="stylesheet" type="text/css" href="/styles/styles-index.css" />
+  <link rel="stylesheet" type="text/css" href="/styles/styles-projects.css"/>
+</head>
+
+<body>
+	<!--name of the blog and the logo at the top of the page-->
+  <header class="banner">
+    <img class="logo" src="" alt="sullivan code blog logo"/>
+    <h1 class ="banner-text">The Sullivan Code Blog</h1>
+    <div class="banner-spacer"></div>
+  </header>
+    
+
+	<!--the navigation section to reach the different parts of the blog-->
+	<nav>
+        <a class="nav-button glow" href="/projects/projects.html">projects</a>
+        <a class="nav-button" href=""></a>
+        <a class="nav-button" href=""></a>
+        <a class="nav-button" href=""></a>
+	</nav>
+
+	<!--holds personal information and descriptions of the different parts of the sight-->
+	<main>
+        <div class="linkBubble">
+          <h1>Inspiration</h1>
+          <p>
+            When I was younger, I was always trying to learn how things worked.
+            This interest lead me to take up programming, because I wanted to
+            understand how video games were made. Since then, I have become
+            more interested in machine learning and how to create self changing
+            systems. Eventually, I stumbled across a video, by Matt Parker,
+            about an AI that was made from match boxes and beads. Fascinated, I
+            decided that I needed to make one of my own.
+          </p>
+        </div>
+        <div class="linkBubble">
+
+          <!-- Matt Parker's video of menace -->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/R9c-_neaxeU" 
+              title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+              clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+          <p>
+            [1] MENACE: the pile of matchboxes which can learn.
+          </p>
+        </div>
+
+        <div class="linkBubble">
+          <h2>What is MENACE?</h2>
+          <p>
+            MENACE is a match box computer thought of and created by Donald
+            Michie in 1961[2]. He did this in order to demonstrate adaptive
+            learning was possible in computer systems. Matchboxes were used due
+            to not having access to a computer at the time[2].
+          </p>
+          <h2>How Does it Work?</h2>
+          <p>
+            There are 304 match boxes. Each box has a picture on the face that
+            represents a board position.  Inside of each box are colored beads
+            that when randomly chosen represent the move that MENACE wants to
+            make - each color corresponds to a square on the board. You play
+            tic-tac-toe with MENACE by picking the box that matches the current
+            state of the board, randomly selecting a bead, and making that
+            move. Then on your turn you play as normal.  Go back and forth
+            between MENACE and you making moves until the game is either won,
+            lost, or drawn. MENACE learns between games, because if MENACE
+            wins, you put the beads back into their respective boxes with three
+            extra of the same color. This makes MENACE more likely to make
+            those same moves in the future. When MENACE draws, you just put
+            back the beads into the box. This keeps MENACE playing the same.
+            And when MENACE loses, you remove the beads that made those
+            decisions from the boxes. This makes MENACE less likely to make
+            those moves in the future. As a result, MENACE gets more likely to
+            make good moves after each game resulting in a win or loss. Over
+            time MENACE will go from playing randomly to expert level play.
+
+          </p>
+        </div>
+
+        <div class="linkBubble">
+          <h1>More Information</h1>
+          <p>
+            The method of learning that is taking place is called reinforcement
+            learning, in that we are using punishments and rewards in order to
+            steer the machines behavior in the direction that we want. This is
+            commonly used for training neural networks.
+          </p>
+
+          <h2>Making your own</h2>
+          <p>
+            If you want to make your own, you can follow along by reading
+            through the rest of the project. In all honesty, it is a good bit
+            of work to complete, so if you have young kids or no programming
+            experience maybe try a simplified version for the game "hexapawn".
+            That's what I did after watching the video for the first time, and
+            while it is less impressive it is still fun to show off to friends.
+          </p>
+        </div>
+
+        <div class="linkBubble">
+          <h1>Sources</h1>
+          <h2>Media</h2>
+          <p>
+            [1] Stand-up Maths, Matt Parker, U.K. MENACE: the pile of matchboxes which can learn. (Nov 14, 2017)
+            Accessed:2022. [Online Video]. Available: <a href="https://youtu.be/R9c-_neaxeU">https://youtu.be/R9c-_neaxeU</a> 
+          </p>
+          <h2>Articles</h2>
+          <p>
+            [2] Wikipedia contributors. "Matchbox Educable Noughts and Crosses Engine ---Wikipedia, The Free Encyclopedia." wikipedia.org.
+            Accessed:2022. Available: <a href="https://en.wikipedia.org/w/index.php?title=Matchbox_Educable_Noughts_and_Crosses_Engine&oldid=1049026147">
+            https://en.wikipedia.org/w/index.php?title=Matchbox_Educable_Noughts_and_Crosses_Engine&oldid=1049026147</a>
+          </p>
+        </div>
+    </main>
+
+	<!--contains copyright and email as well as github account-->
+  <footer>
+    <a class="footer-button">thesullivancodeblog@gmail.com</a>
+    <a class="footer-button">github.com/Richard-M-Sullivan</a>
+    <a class="footer-button">stand in linkedin</a>
+  </footer>
+
+</body>
+
+</html>
