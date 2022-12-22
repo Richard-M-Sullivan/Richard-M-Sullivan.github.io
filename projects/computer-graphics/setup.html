@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title> The Sullivan Code Blog </title>
+  <link rel="stylesheet" type="text/css" href="/styles/styles-index.css" />
+  <link rel="stylesheet" type="text/css" href="/styles/styles-projects.css"/>
+</head>
+
+<body>
+	<!--name of the blog and the logo at the top of the page-->
+  <header class="banner">
+    <img class="logo" src="" alt="sullivan code blog logo"/>
+    <h1 class ="banner-text">The Sullivan Code Blog</h1>
+    <div class="banner-spacer"></div>
+  </header>
+    
+
+	<!--the navigation section to reach the different parts of the blog-->
+	<nav>
+        <a class="nav-button glow" href="/projects/projects.html">projects</a>
+        <a class="nav-button" href=""></a>
+        <a class="nav-button" href=""></a>
+        <a class="nav-button" href=""></a>
+	</nav>
+
+	<!--holds personal information and descriptions of the different parts of the sight-->
+	<main>
+        <div class=linkBubble>
+          <h1>Set Up</h1>
+
+          <h2>Creating The Game Loop</h2>
+          <p>
+            In SDL, one first has to call the init method to generate the underlying
+            subsystems that will be used.
+          </p>
+
+          <p>
+            After things were initialized the next step was to create a window and a
+            surface.
+          </p>
+
+          <p>
+            The general idea is that a surface is a buffer that you can draw to, and a
+            window is the area of the screen that you can display the contents of a
+            surface.
+          </p>
+
+          <p>
+            The next important step is to create a loop that holds the program open so that
+            the window doesn't close the instant it is created. To do this, I created a
+            loop that checks if the user wants to quit the application. Then I created a
+            loop that handels events. If the quit event occurs, then it will set the quit
+            flag to true on the outer loop and allow the program to close.
+          </p>
+
+          <p>
+            After exiting the loop some cleanup needs to be done to exit the program
+            nicely.
+          </p>
+
+          <p>
+            At this point I had a program with an openable and closeable window. Perfect!
+          </p>
+
+          <h2>Limiting The Frame Rate</h2>
+          <p>
+            At the moment my program opens a blank window. It also uses a lot of resources,
+            because there are no mechanisms to limit how fast the computer will execute the
+            program. This is inefficient. To make my computer utilize fewer resources, I
+            decided to cap the frame rate by adding a delay.<br><br>
+
+            This is done by calculating how long it takes to get through the game loop.
+            Then that time is used to figure out how much delay is needed to get the
+            desired frame rate. <br><br>
+
+            SDL gives back the time in milliseconds, so to achieve a desired frame rate one
+            can use the formula " 1000 / frame_rate " to get how much time should pass each
+            time you enter the game loop.<br><br>
+
+            This can be calculated by getting the time when entering the loop (start_time)
+            and the time when leaving the loop (end_time). Then you subtract the starting
+            time from the ending time to get the total amount of time that has elapsed
+            going through the loop (delta_time). Then we can sue the formula " (1000 /
+            frame_rate) - delta " to get the amount of time that we need to delay to
+            achieve our desired frame rate.<br><br>
+          </p>
+
+          <h2>Recap</h2>
+          <p>
+            If we want a frame rate of 60 frames per second, then we know that it should
+            take " 1000 / 60 " milliseconds to go through the loop.<br><br>
+
+            frame_rate = 60fps<br>
+            desired_delta = 1000 / 60<br><br>
+
+            The time it actually took to get through the loop is given by subtracting the
+            ending time from the start time<br><br>
+
+            actual_delta = time_end - time_start<br><br>
+
+            Finally, we wait so that the time elapsed is equal to our desired delta time,
+            and how long to wait is given by the following formula:<br><br>
+
+            delay = desired_delta - actual_delta
+          </p>
+
+          <h2>Drawing A Pixel to The Screen</h2>
+          <p>
+            Now that I have a window, a suface to draw to, and am limiting the frame rate
+            the only thing left before I can go through the book is to draw a pixel to the
+            screen.<br><br>
+
+            A Renderer is needed to draw things in SDL. If you want to draw to a window
+            use a renderer, but to draw to a surface use a softwareRenderer.<br><br>
+
+            Drawing is a two step process:<br>
+              1. set the drawing color<br>
+              2. draw something to the screen<br><br>
+
+            To set hte drawing color call the SetRenderColor fuction and pass it the
+            renderer to set its color.<br><br>
+
+            To draw a pixel use the RenderPlacePoint function to draw a point at an (x,y)
+            coordinate on the surface.
+          </p>
+        </div>
+
+        <div class=linkBubble>
+          <h1>Ok... Now What?</h1>
+          <p>
+            I have set up a simple project that implements everything needed for me to feel
+            comfortable starting the book. While the code works, it will need to be
+            refactored at some point. I am deferring refactoring until I read enough of the
+            book to assess what kind of structure for the project will work well.
+          </p>
+        </div>
+    </main>
+
+	<!--contains copyright and email as well as github account-->
+  <footer>
+    <a class="footer-button">thesullivancodeblog@gmail.com</a>
+    <a class="footer-button">github.com/Richard-M-Sullivan</a>
+    <a class="footer-button">stand in linkedin</a>
+  </footer>
+
+</body>
+
+</html>
+

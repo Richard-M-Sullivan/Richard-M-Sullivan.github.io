@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title> The Sullivan Code Blog </title>
+  <link rel="stylesheet" type="text/css" href="/styles/styles-index.css" />
+  <link rel="stylesheet" type="text/css" href="/styles/styles-projects.css"/>
+</head>
+
+<body>
+	<!--name of the blog and the logo at the top of the page-->
+  <header class="banner">
+    <img class="logo" src="" alt="sullivan code blog logo"/>
+    <h1 class ="banner-text">The Sullivan Code Blog</h1>
+    <div class="banner-spacer"></div>
+  </header>
+    
+
+	<!--the navigation section to reach the different parts of the blog-->
+	<nav>
+        <a class="nav-button glow" href="/projects/projects.html">projects</a>
+        <a class="nav-button" href=""></a>
+        <a class="nav-button" href=""></a>
+        <a class="nav-button" href=""></a>
+	</nav>
+
+	<!--holds personal information and descriptions of the different parts of the sight-->
+	<main>
+        <div class="linkBubble">
+          <h1>Introduction</h1>
+          <p>
+            Welcome to the Computer Graphics project. This project covers the 
+            creation of two software renderers: a ray tracer and a rasterizer.
+            Come with me as I go through the book Computer Graphics From Scratch,
+            by Gabriel Gambretta.
+          </p>
+        </div>
+
+        <div class="linkBubble">
+          <h2>Getting Started</h2>
+          <p>
+            The book is comprised of pseudo code and written descriptions of how the
+            graphics algorithms work. The book makes no assumptions as to what language or
+            programming environment you will use, and does not offer help in setting up
+            a programming project. Because of this I have the freedom to pick what language,
+            IDE, and environment I want to program in.
+          </p>
+          
+          <p>
+            I chose to program the project in c++. The software renderer will be slow
+            by nature (there is no gpu acceleration), so by using c++ the render will be
+            made to be as fast as possible givn its limitations.
+          </p>
+
+          <p>
+            I chose to use Cmake as the bould system because it is a better alternative to
+            using a conventional makefile.
+          </p>
+
+          <p>
+            I will be using the SDL2 library because it is simple to setup and easy to use.
+          </p>
+
+          <p>
+            I will be programming in the Linux environment because I enjoy Linux and use it
+            as my daily driver.
+          </p>
+          
+          <p>
+            Lastly, I chose to use Visual Studio Code as my editor. It offers a lot in
+            terms of syntax highlighting, auto completion, and configurability. It is also
+            the industry standard, so being familiar with widely used tools is always a
+            good idea.
+          </p>
+
+          <h2>Setup of The Project</h2>
+          <p>
+            First I downloaded cmake. While I am more familiar with makefiles, I decided to
+            try cmake to learn how it works. I learned that it is a system that creates
+            makefiles. This is important because makefiles are tedious to write and
+            difficult to make work cross platform. Because of this cmake is a good tool
+            because it fixes all of those issues. 
+          </p>
+            
+          <p>
+            Cmake integrates well with visual studio. After installing cmake, I followed a
+            short tutorial and wrote a simple file. Then I used the Visual Studio Code tool
+            to generate the build folder, which created a make file for me to compile my
+            project.
+          </p>
+
+          <p>
+            Next I installed SDL2 and created a simple program that creates a window. I
+            also configured my cmake file to link to SDL2, so I can compile and run my
+            project.
+          </p>
+        </div>
+
+        <div class="linkBubble">
+          <h1>Resources</h1>
+          <p>
+            I don't want to get into too much detail on how things are set up because it wont
+            apply to most people, but I can provide the resources that I used to set things up.
+          </p>
+             
+          <p>
+            For cmake and setting up SDL2, just youtube cmake and SDL2 tutorials. there are lots
+            of videos to follow, and just pick the one that is most applicable to you.
+          </p>
+            
+          <p>
+            For documentation on SDL2 I recommend checking out <a href="https://lazyfoo.net/tutorials/SDL/index.php">Lazyfoo's website.</a> I found it by
+            searching "SDL2 tutorial" on the internet machine. There are many other sites with
+            tutorials as well. <a href="https://wiki.libsdl.org/SDL2/FrontPage">The SDL2 wiki</a> is also pretty great as well.
+          </p>
+        </div>
+    </main>
+
+	<!--contains copyright and email as well as github account-->
+  <footer>
+    <a class="footer-button">thesullivancodeblog@gmail.com</a>
+    <a class="footer-button">github.com/Richard-M-Sullivan</a>
+    <a class="footer-button">stand in linkedin</a>
+  </footer>
+
+</body>
+
+</html>
